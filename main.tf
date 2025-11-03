@@ -357,10 +357,10 @@ output "lb_dns_name" {
 
 
 resource "aws_s3_bucket" "example" {
-  bucket = "mycutebucket009"
+  bucket = "my-terraform-bkt-009"
 
   tags = {
-    Name        = "mycutbucket009"
+    Name        = "my-terraform-bkt-009"
     Environment = "Dev"
   }
 }
